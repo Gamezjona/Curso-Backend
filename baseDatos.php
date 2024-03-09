@@ -1,7 +1,7 @@
 <?php
 function conectar_bd(){
     $servidor = "localhost";
-    $nombrebd = "empresa";
+    $nombrebd = "empresa2";
     $usuario = "root";
     $contrasena = "";
 
