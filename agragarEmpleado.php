@@ -9,8 +9,7 @@ if(!empty($_POST['nombre']) && !empty($_POST['edad'])){
     $exito = mysqli_query($accesibilidad,$query);
 
     if($exito){
-        echo "Se ingreso el empleado";
-        //header("Location: listaEmpleados.php");
+        header("Location: listaEmpleados.php");
     }else{
         header("Location: nuevoEmpleado.php");
     }

@@ -17,8 +17,8 @@ mysqli_close($conexion_bd);
             <?php
             while($registro = mysqli_fetch_assoc($resultado2)){
                 echo "<li>".$registro['nombre_Empleado']." (".$registro['edad_Empleado'].") años  ";
-                echo "<a href='modificarEmpledo.php?empleadoId=".$registro['id_Empleado']."'> Modoficar </a>   ";
-                echo "<a href='eliminarEmpledo.php?empleadoId=".$registro['id_Empleado']."'> Eliminar </a> </li>";
+                echo "<a href='modificarEmpleado.php?empleadoId=".$registro['id_Empleado']."'> Modoficar </a>   ";
+                echo "<a href='eliminarEmpleado.php?empleadoId=".$registro['id_Empleado']."'> Eliminar </a> </li>";
             }
             ?>
         </ul>
